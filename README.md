@@ -1,6 +1,6 @@
 # EPL File Printing
 
-**WARNING** Our software is provided "as is," and you use the software at your own risk. We make no warranties as to performance, merchantability, fitness for a particular purpose, or any other warranties whether expressed or implied - downloading and/or running a malicious .EPL file(s) may cause serious damage to your computer, loss of data, etc.
+**WARNING** Our software is provided "as is," and you use the software at your own risk. We make no warranties as to performance, merchantability, fitness for a particular purpose, or any other warranties whether expressed or implied. Downloading and/or directly executing a malicious .EPL file(s) may cause serious damage to your computer, loss of data, etc.
 
 ---
 
