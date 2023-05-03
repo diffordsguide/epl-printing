@@ -1,5 +1,9 @@
 # EPL File Printing
 
+**WARNING** Our software is provided "as is," and you use the software at your own risk. We make no warranties as to performance, merchantability, fitness for a particular purpose, or any other warranties whether expressed or implied - downloading and/or running a malicious .EPL file(s) may cause serious damage to your computer, loss of data, etc.
+
+---
+
 A solution for printing EPL files. EPL files contain RAW data for printers, in this case labels supplied by DPD and other couriers that can be tricky to print.
 
 ## The Problem
