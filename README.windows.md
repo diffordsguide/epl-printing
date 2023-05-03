@@ -14,10 +14,14 @@ Follow the manufacturers instructions to download and install your printer drive
 1. Connect the printer with a USB connection.
 2. Navigate to Control Panel > Devices and Printer.
 3. Select the required Printer and right-click to select Printer Properties.
+
 ![rtaImage](https://user-images.githubusercontent.com/5738396/236037133-76cd68e8-77c5-484a-9c44-08b791f24059.jpeg)
-5. From the Sharing tab, flag the Share this printer checkbox.
+
+4. From the Sharing tab, flag the Share this printer checkbox.
+
 ![rtaImage](https://user-images.githubusercontent.com/5738396/236037383-b34489be-2a5e-4e79-8ece-fb7695d6e441.jpeg)
-7. Call your printer `DPD`.
+
+5. Call your printer `DPD`.
 
 ### Application setup
 
