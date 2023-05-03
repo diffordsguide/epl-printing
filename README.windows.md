@@ -46,7 +46,13 @@ Set-ExecutionPolicy Bypass
 
 ... when asked `Do you want to change the execution policy? [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): `, enter `y`.
 
-Now in the same window (as Administrator) run:
+Open a CMD as administrator:
+
+1. Press Win + R on your keyboard. This will open the Run dialog box.
+2. From here, type in "CMD" and press Ctrl + Shift + Enter key combination.
+3. If a confirmation prompt pops up, click Yes to continue. This will launch CMD as an administrator.
+
+... then run:
 ```
 cmd /c assoc .epl=epldocument
 cmd /c ftype epldocument=powershell.exe -File `"C:\Users\me\print-epl.ps1`" `"%1`"
