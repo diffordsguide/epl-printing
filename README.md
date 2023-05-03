@@ -14,7 +14,7 @@ Once configured to use this solution you'll need to download the `.EPL` file and
 
 ## Installation
 
-- Windows
+- [Windows](README.windows.md)
 - MacOS
 - Ubuntu
 
