@@ -1,5 +1,11 @@
 # EPL Printing for Windows
 
+**WARNING** Our software is provided "as is," and you use the software at your own risk. We make no warranties as to performance, merchantability, fitness for a particular purpose, or any other warranties whether expressed or implied - downloading and/or running a malicious .EPL file(s) may cause serious damage to your computer, loss of data, etc.
+
+---
+
+Once you have setup your Windows computer you should be able to download any `.EPL` and double click on it, or run via download and the label will magically print.
+
 ## Prerequsites
 
 - A label printer (eg Zebra GK420D, TSC DA210)
