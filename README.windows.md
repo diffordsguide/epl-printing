@@ -19,7 +19,7 @@ Follow the manufacturers instructions to download and install your printer drive
 
 4. From the Sharing tab, flag the Share this printer checkbox.
 
-![rtaImage](https://user-images.githubusercontent.com/5738396/236037383-b34489be-2a5e-4e79-8ece-fb7695d6e441.jpeg)
+![236037383-b34489be-2a5e-4e79-8ece-fb7695d6e441](https://user-images.githubusercontent.com/5738396/236040273-ef2a23bf-55e2-4470-ac40-1b624d4d9181.png)
 
 5. Call your printer `DPD`.
 
