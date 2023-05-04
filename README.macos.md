@@ -9,7 +9,6 @@ Once you have installed the printer on you MacOS computer you should be able to 
 ## Prerequsites
 
 - A label printer (eg Zebra GK420D, TSC DA210)
-- Administrator access (root) to your MacOS
 - [MacOS driver for TSC CL-S521](https://github.com/harrywebster/epl-printing/blob/main/macos-driver-cls521.dmg)
 
 ## Installation
@@ -27,29 +26,12 @@ Follow the manufacturers instructions to download and install your printer drive
 
 ### Application setup
 
-Download the `print-epl.ps1` from this repository and put it in your HOME directory `C:\Users\me\print-epl.ps1`.
+1. Open Automator and choose to create an Application.
+2. Find the Action "Run Shell Script" and double-click it or drag it to the script area.
+3. Select the interpreter `bash`.
+4. Set the "Pass input" option to "as arguments".
+5. Enter the following code into the edit area below: `lpr -P DPD -o raw $@`
+6. You can now save the script, calling it `print-epl`.
+7. Open a `.EPL` label file and when it asks you what application you want to open it through, select `print-epl`
 
-Open a PowerShell terminal as administrator:
-
-1. Press Win + R on your keyboard. This will open the Run dialog box.
-2. From here, type in "PowerShell" and press Ctrl + Shift + Enter key combination.
-3. If a confirmation prompt pops up, click Yes to continue. This will launch PowerShell as an administrator.
-
-... then run:
-```
-Set-ExecutionPolicy Bypass
-```
-
-... when asked `Do you want to change the execution policy? [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): `, enter `y`.
-
-Open a CMD as administrator:
-
-1. Press Win + R on your keyboard. This will open the Run dialog box.
-2. From here, type in "CMD" and press Ctrl + Shift + Enter key combination.
-3. If a confirmation prompt pops up, click Yes to continue. This will launch CMD as an administrator.
-
-... then run:
-```
-cmd /c assoc .epl=epldocument
-cmd /c ftype epldocument=powershell.exe -File `"C:\Users\me\print-epl.ps1`" `"%1`"
-```
+This solution will use the printer called `DPD`, if you want to swap printers you'll have to rename them both so the old printer is called `something-else` and the desired printer is now called `DPD`.
