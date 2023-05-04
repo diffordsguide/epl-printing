@@ -19,7 +19,7 @@ Once configured to use this solution you'll need to download the `.EPL` file and
 ## Installation
 
 - [Windows](README.windows.md)
-- MacOS
+- [MacOS](README.macos.md)
 - Ubuntu
 
 ## Printers tested on Winodws 11
