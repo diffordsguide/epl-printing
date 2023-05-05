@@ -22,7 +22,7 @@ Once configured to use this solution you'll need to download the `.EPL` file and
 - [MacOS](README.macos.md)
 - Ubuntu
 
-## Printers tested on Winodws 11
+## Printers tested
 
 - Zebra GK420D (EPL)
 - TSC DA210
